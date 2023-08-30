@@ -5,6 +5,9 @@
 
 /* Header */
 
+.responsive-title{
+    display: none;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -273,12 +276,12 @@ margin-right: 2%;
 @media screen and (max-width:576px) {
     /* header */
 .responsive-title{
-   display: flex;
-   justify-content: space-between;
-   list-style:none ;
-   color: #0A0826;
-    width: 100%;
-   font-size: 2.25rem;
+display: flex;
+justify-content: space-between;
+list-style:none ;
+color: #0A0826;
+width: 100%;
+font-size: 2.25rem;
 }
 nav ul{
    display: none;
